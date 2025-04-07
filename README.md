@@ -57,6 +57,13 @@ Kullanım: spoofdpi [seçenekler...]
 google-chrome --proxy-server="http://127.0.0.1:8080"
 ```
 
+### Docker
+`Spoofdpi`ı Docker'da çalıştırın ve favori tarayıcınızı proxy seçeneği ile açın
+```bash
+docker run -p "127.0.0.1:8080:8080" --restart always ghcr.io/bariiss/spoofdpi-turkiye:latest spoofdpi
+google-chrome --proxy-server="http://127.0.0.1:8080"
+```
+
 # Nasıl Çalışır
 ### HTTP
  Dünyadaki çoğu web sitesi artık HTTPS'yi desteklediğinden, SpoofDPI HTTP istekleri için Derin Paket Denetimlerini atlamaz, ancak yine de tüm HTTP istekleri için proxy bağlantısı sunar.
