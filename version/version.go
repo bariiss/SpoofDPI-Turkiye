@@ -6,7 +6,7 @@ import _ "embed"
 var VERSION string
 
 func PrintVersion() {
-	println("spoofdpi", "v" + VERSION)
+	println("spoofdpi", "v"+VERSION)
 	println("Spoof DPI'ın bu sürümü Türkiye'de kullanılmak üzere yapılandırılmıştır.")
-	println("https://github.com/renardev/SpoofDPI-Turkiye")
+	println("https://github.com/bariiss/SpoofDPI-Turkiye")
 }

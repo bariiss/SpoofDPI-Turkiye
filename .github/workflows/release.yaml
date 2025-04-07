@@ -29,7 +29,7 @@ jobs:
           name: v${{ steps.read_version.outputs.version }}
           tag: v${{ steps.read_version.outputs.version }}
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.MY_PAT_TOKEN }}
 
   build_and_publish:
     runs-on: ubuntu-latest
@@ -39,7 +39,7 @@ jobs:
       contents: write
       pull-requests: write
     env: 
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GITHUB_TOKEN: ${{ secrets.MY_PAT_TOKEN }}
       TAG_NAME: ${{ needs.draft_release.outputs.tag_name }}
       CGO_ENABLED: 0
     steps:

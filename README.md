@@ -1,14 +1,14 @@
 # SpoofDPI Turkiye
 
-Read in other Languages: [🇹🇷Turkish](https://github.com/renardev/SpoofDPI-Turkiye), [🇬🇧English](https://github.com/renardev/SpoofDPI-Turkiye/blob/main/_docs/README_en.md)
+Read in other Languages: [🇹🇷Turkish](https://github.com/bariiss/SpoofDPI-Turkiye), [🇬🇧English](https://github.com/bariiss/SpoofDPI-Turkiye/blob/main/_docs/README_en.md)
 
 Spoof DPI'ın bu sürümü **Türkiye'de** kullanılmak üzere yapılandırılmıştır.
 
 ![image](https://user-images.githubusercontent.com/45588457/148035986-8b0076cc-fefb-48a1-9939-a8d9ab1d6322.png)
 
 # Kurulum
-Direkt olarak [releases](https://github.com/renardev/SpoofDPI-Turkiye/releases) bölümünden indirebilir veya
-[Buradan](https://github.com/renardev/SpoofDPI-Turkiye/blob/main/_docs/INSTALL.md) kurulum aşamalarını takip edebilirsiniz.
+Direkt olarak [releases](https://github.com/bariiss/SpoofDPI-Turkiye/releases) bölümünden indirebilir veya
+[Buradan](https://github.com/bariiss/SpoofDPI-Turkiye/blob/main/_docs/INSTALL.md) kurulum aşamalarını takip edebilirsiniz.
 
 # Kullanım
 Programımız Türkiye'ye özel olarak konfigure edildiği için sizin için uygun sürümü direkt olarak başlatarak çalıştırabilirsiniz.
@@ -71,4 +71,5 @@ google-chrome --proxy-server="http://127.0.0.1:8080"
 
 
 # Benzer Projeler
-[GoodbyeDPI-Turkey](https://github.com/cagritaskn/GoodbyeDPI-Turkey) @cagritaskn (Windows)
+[GoodbyeDPI-Turkey](https://github.com/cagritaskn/GoodbyeDPI-Turkey) @cagritaskn
+[SpoofDPI-Turkiye](https://github.com/renardev/SpoofDPI-Turkiye) @renardev
