@@ -1,6 +1,6 @@
 services:
   spoofdpi:
-    image: ghcr.io/bariiss/spoofdpi-turkiye:latest
+    image: ghcr.io/bariiss/spoofdpi:latest
     build:
       context: .
       dockerfile: Dockerfile

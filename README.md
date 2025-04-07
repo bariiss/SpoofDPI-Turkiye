@@ -60,7 +60,7 @@ google-chrome --proxy-server="http://127.0.0.1:8080"
 ### Docker
 `Spoofdpi`ı Docker'da çalıştırın ve favori tarayıcınızı proxy seçeneği ile açın
 ```bash
-docker run -p "127.0.0.1:8080:8080" --restart always ghcr.io/bariiss/spoofdpi-turkiye:latest spoofdpi
+docker run -p "127.0.0.1:8080:8080" -d --restart always ghcr.io/bariiss/spoofdpi:latest
 google-chrome --proxy-server="http://127.0.0.1:8080"
 ```
 
