@@ -16,7 +16,7 @@ services:
       --port 8080
       --addr 0.0.0.0
       --enable-doh
-      --dns-addr 8.8.8.8
+      --dns-addr 77.88.8.8
       --dns-port 53
       --system-proxy false
       --debug false
